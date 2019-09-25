@@ -1,0 +1,25 @@
+{
+  "name": "brier-scoring-on-estimates",
+  "version": "1.0.0",
+  "description": "An exploration on what Brier Scoring looks like, applied to ranged estimates on task completion times.",
+  "main": "index.js",
+  "scripts": {
+    "main": "elm reactor",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-k-b/brier-scoring-on-estimates.git"
+  },
+  "author": "Robert K. Bell <robert.k.bell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-k-b/brier-scoring-on-estimates/issues"
+  },
+  "homepage": "https://github.com/r-k-b/brier-scoring-on-estimates#readme",
+  "dependencies": {
+    "elm": "^0.19.0-no-deps",
+    "elm-format": "^0.8.2",
+    "elm-test": "^0.19.0-rev6"
+  }
+}
