@@ -1,7 +1,7 @@
 on:
   schedule:
     # "At 01:29 on Monday." (UTC)
-    - cron: '1 29 * * 1'
+    - cron: "29 1 * * 1"
 jobs:
   bump_version:
     runs-on: ubuntu-22.04
