@@ -1,0 +1,12 @@
+on:
+  schedule:
+    # "At 01:29 on Monday." (UTC)
+    - cron: "1 29 * * 1"
+jobs:
+  bump_version:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: say hi
+        run: echo hiya
